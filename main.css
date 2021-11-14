@@ -1,0 +1,457 @@
+body{
+  background-color: #03f4fc;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.nav{
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  top:0;
+  font-weight: bolder;
+
+}
+
+.nav-ul{
+  list-style: none;
+  display: flex;
+  position: absolute;
+  left:3em;
+}
+.nav-ul a{
+  border-bottom: 0;
+}
+.nav-ul li{
+  padding: 10px;
+  cursor: pointer;
+}
+.nav-ul li:hover{
+  border-bottom: 3px solid white;
+}
+.inner-body{
+  position: absolute;
+  width: 90%;
+  height: 90vh;
+  top:4em;
+  left:4.5em;
+  background-color: white;
+}
+.head1{
+  position: absolute;
+  top:-10px;
+  left:50px;
+}
+
+.m1{
+  position: absolute;
+  top:6em;
+  left:2em;
+  width:20%;
+  height: 50vh;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.book{
+  position: absolute;
+  bottom: 0px;
+  background-color: #51de00;
+  width: 100%;
+  height: 6vh;
+  z-index: 1;
+  animation: comeup 1s linear;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
+@keyframes comeup {
+  0%{
+    visibility: visible;
+    transform: translateY(4em);
+  }
+  100%{
+    visibility: visible;
+    transform: translateY(0);
+
+  }
+}
+.tic{
+  position: absolute;
+  font-size: 20px;
+  top:-5px;
+  left:3em;
+}
+.rate{
+  position: absolute;
+  bottom: -4.5em;
+  width: 100%;
+  height:10vh;
+  border: 1px solid black;
+}
+.rate h1{
+  position: absolute;
+  top:-15px;
+  left: 10px;
+  font-size: 25px;
+}
+/* Movie 2 */
+.m2{
+  position: absolute;
+  top:6em;
+  left:31em;
+  width:20%;
+  height: 50vh;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/* Movie 3 */
+.m3{
+  position: absolute;
+  top:6em;
+  right:2em;
+  width:20%;
+  height: 50vh;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.p1{
+position: absolute;
+width: 100%;
+height: 50vh;
+}
+
+.p2{
+position: absolute;
+width: 100%;
+height: 50vh;
+}
+
+.p3{
+position: absolute;
+width: 100%;
+height: 50vh;
+}
+.rate ul{
+  position: absolute;
+  list-style: none;
+  display: flex;
+  top:20px;
+  left:-30px;
+}
+.rate li{
+padding: 1px;
+color: #fcf803;
+}
+
+.content{
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  z-index: 1;
+  background-color: white;
+  display: none;
+}
+.post1{
+  position: absolute;
+  top:5em;
+  left:27em;
+  width: 25%;
+  height: 70vh;
+}
+.c1{
+  position: absolute;
+  top:-20px;
+  left: 10px;
+}
+
+.c11{
+  position: absolute;
+  top:25px;
+  left: 10px;
+  font-size: 15px;
+}
+.box-right{
+  position: absolute;
+  right:20px;
+  top:3em;
+  width: 30%;
+  height: 80vh;
+  border: 1px solid black;
+}
+
+.det{
+  position: absolute;
+  top:3.5em;
+  left: 6px;
+  font-size: 19px;
+  font-weight: lighter;
+}
+.box-right h2{
+  position: absolute;
+  top:20px;
+  left: 10px;
+}
+.box-right ul{
+  list-style: none;
+  position: absolute;
+  top:14em;
+  left:-5px;
+
+}
+.box-right li{
+  padding: 5px;
+}
+
+.like{
+  position: absolute;
+  bottom: 5px;
+  left:6em;
+  width: 200px;
+  height: 10vh;
+}
+
+.box-left h1{
+  position: absolute;
+  top:2em;
+  left: 1em;
+}
+.tic-av{
+  position: absolute;
+  top:37em;
+  width: 100%;
+  height:100vh;
+  background-color: white;
+}
+.btn{
+  position: absolute;
+  top:5em;
+  left: 10px;
+
+}
+.btn button{
+  border: 2px solid blue;
+  width: 70px;
+cursor: pointer;
+  height: 5vh;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 100px;
+  transition: 0.2s;
+}
+.btn button:hover{
+  background-color: blue;
+  font-weight: bolder;
+}
+
+.screen{
+  position: absolute;
+  top:10em;
+  left:7em;
+  width: 500px;
+  height: 20vh;
+}
+.sc1 h1{
+  font-size: 15px;
+  position: absolute
+  top:-10px;
+  font-weight: bold;
+}
+.sc1 h2{
+  font-size: 15px;
+  position: absolute;
+  top:20px;
+  left:1em;
+  font-weight: lighter;
+}
+.sc1 button{
+  width: 100px;
+  height: 5vh;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 25px;
+  position: absolute;
+  right:-10em;
+  top:20px;
+  cursor: pointer;
+}
+
+.sc1 button:hover{
+  background-color: green;
+}
+.sc2 h1{
+  font-size: 15px;
+  position: absolute;
+  top:6em;
+  font-weight: bold;
+}
+.sc2 h2{
+  font-size: 15px;
+  position: absolute;
+  top:7.5em;
+  left:1em;
+  font-weight: lighter;
+}
+.sc2 button{
+  width: 100px;
+  height: 5vh;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 25px;
+  position: absolute;
+  right:-10em;
+  top:8em;
+  cursor: pointer;
+}
+
+.sc2 button:hover{
+  background-color: green;
+}
+.sc3 h1{
+  font-size: 15px;
+  position: absolute;
+  top:12em;
+  font-weight: bold;
+}
+.sc3 h2{
+  font-size: 15px;
+  position: absolute;
+  top:13.5em;
+  left:1em;
+  font-weight: lighter;
+}
+.sc3 button{
+  width: 100px;
+  height: 5vh;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 25px;
+  position: absolute;
+  right:-10em;
+  top:15em;
+  cursor: pointer;
+}
+
+.sc3 button:hover{
+  background-color: green;
+}
+
+.booking{
+  position: absolute;
+  top:30em;
+  background-color: white;
+  width: 100%;
+  height: 90vh;
+}
+.person{
+  display: flex;
+  width: 100%;
+  position: absolute;
+  left:25em;
+  padding: 10px;
+
+}
+.person button{
+  display: flex;
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid blue;
+  width: 50px;
+  height: 5vh;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.person button:hover{
+  background-color: blue;
+  font-weight: bolder;
+
+}
+.seat{
+  position: absolute;
+  top:10em;
+  left:3em;
+  width: 90%;
+  height: 50vh;
+}
+.f1{
+  position: absolute;
+  top:1em;
+  left:23em;
+ padding: 10px;
+
+}
+.f1 button{
+  width: 40px;
+  height: 5vh;
+  margin-right: 10px;
+}
+.f2{
+  position: absolute;
+  top:5em;
+  left:19em;
+ padding: 10px;
+
+}
+.f2 button{
+  width: 40px;
+  height: 5vh;
+  margin-right: 10px;
+}
+.f3{
+  position: absolute;
+  top:9em;
+  left:23em;
+ padding: 10px;
+
+}
+.f3 button{
+  width: 40px;
+  height: 5vh;
+  margin-right: 10px;
+}
+.f4{
+  position: absolute;
+  top:1em;
+  left:10em;
+ padding: 10px;
+display:table-column;
+}
+.f4 button{
+  width: 40px;
+  height: 5vh;
+  margin-top: 10px;
+}
+.f5{
+  position: absolute;
+  top:1em;
+  right:15em;
+ padding: 10px;
+display:table-column;
+}
+.f5 button{
+  width: 40px;
+  height: 5vh;
+  margin-top: 10px;
+}
+.f6{
+  position: absolute;
+  bottom:1em;
+  left:15em;
+ padding: 10px;
+}
+.f6 button{
+  width: 40px;
+  height: 5vh;
+  margin-right: 10px;
+}
+iframe{
+  position: absolute;
+  top:9em;
+  left:1em;
+  width: 350px;
+  height: 30vh;
+}
